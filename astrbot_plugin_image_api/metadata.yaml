@@ -1,0 +1,9 @@
+name: astrbot_plugin_image_api
+display_name: 三方 API 图片生成
+short_desc: 通过第三方 API（OpenAI 兼容 / SD WebUI / 自定义）文生图
+desc: 调用第三方图片生成 API 生成图片。支持 OpenAI 兼容接口（DALL·E、硅基流动、智谱、NewAPI 等）、Stable Diffusion WebUI，以及可自定义请求体的任意 HTTP 接口；提供 /画图 指令和 generate_image 大模型工具。
+help: 发送 /画图 一只在月球上钓鱼的猫 即可生成图片；发送 /画图 帮助 查看全部参数。
+version: 1.0.0
+author: dsh
+repo: https://github.com/Mzkysa/astrbot_plugin_image_api
+astrbot_version: ">=4.0.0"
